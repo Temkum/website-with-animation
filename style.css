@@ -377,3 +377,17 @@ header {
 .body-btn:focus::before {
     background-color: var(--main-font-color-dark);
 }
+
+/* Tasteful recipes */
+.tasteful-recipes {
+    background: url("/images/recipe.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.between {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+/* discover our menu */
