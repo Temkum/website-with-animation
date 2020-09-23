@@ -407,3 +407,40 @@ header {
     background: url('/images/perfect-blend.jpg') center no-repeat;
     background-size: cover;
 }
+
+/* footer */
+footer {
+    padding: 7.9rem;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+
+.scroll-top {
+    /* center scroll btn */
+    width: 7rem;
+    height: 7rem;
+    background-color: #121212;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.scroll-top i {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}
