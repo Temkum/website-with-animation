@@ -33,6 +33,7 @@ body {
 
 section {
     padding: 3.9rem 0;
+    overflow: hidden;
 }
 
 img {
@@ -104,7 +105,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    z-index: 1250;
+    z-index: 3000;
 
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
@@ -494,7 +495,7 @@ footer {
 }
 
 .footer-content {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .footer-content h4 {
