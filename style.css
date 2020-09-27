@@ -718,6 +718,10 @@ footer {
         width: 100%;
     }
 
+    .first-letter {
+        font-size: 6.5rem;
+    }
+
     .container.welcome {
         margin-bottom: 25px;
     }
@@ -749,7 +753,7 @@ footer {
     }
 
     .sub-headline {
-        font-size: 7.5rem;
+        font-size: 5.5rem;
     }
 
     footer {
