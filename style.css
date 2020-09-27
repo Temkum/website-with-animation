@@ -16,7 +16,7 @@
     --secondary-font: 'Poiret One', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
-    --secondary-font-color: #c59d5f;
+    --secondary-font-color: #05b405;
     --body-font-color: #515151;
 }
 
@@ -204,7 +204,7 @@ header {
     font-size: 8.5rem;
     font-family: var(--secondary-font);
     color: var(--secondary-font-color);
-    font-weight: 100;
+    font-weight: 400;
     line-height: .4;
     letter-spacing: 2px;
     opacity: 0;
@@ -426,7 +426,7 @@ header {
 
 /* Tasteful recipes */
 .tasteful-recipes {
-    background: url("/images/recipe.jpg") center no-repeat;
+    background: url("/images/menu-grp5.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -579,6 +579,7 @@ footer {
     margin-left: 10.5rem;
 }
 
+
 /* media queries */
 @media screen and (min-width: 900px) {
     section {
@@ -689,7 +690,7 @@ footer {
     .newsletter-form {
         width: 100%;
         max-width: 27.3rem;
-        margin: 0 1rem;
+        margin: 0 auto;
     }
 
     .social-icons i {
@@ -697,7 +698,82 @@ footer {
     }
 
     .newsletter-btn {
-        margin-left: 7.5rem;
+        margin-left: 21.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+
+    .container.welcome {
+        margin-bottom: 25px;
+    }
+
+    .sub-headline {
+        font-size: 6.5rem;
+    }
+
+    footer {
+        padding: 2.5rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    form.newsletter-form .newsletter-btn {
+        margin-right: -8rem;
+    }
+
+    .social-icons .fab {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container.welcome {
+        margin-bottom: 25px;
+    }
+
+    .sub-headline {
+        font-size: 7.5rem;
+    }
+
+    footer {
+        padding: 3.5rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    form.newsletter-form .newsletter-btn {
+        margin-right: -10rem;
+    }
+
+    .social-icons .fab {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    footer {
+        padding: 3.5rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    form.newsletter-form .newsletter-btn {
+        margin-right: -10rem;
+    }
+
+    .social-icons .fab {
+        padding: 2rem;
     }
 }
 
