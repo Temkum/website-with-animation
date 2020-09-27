@@ -73,6 +73,16 @@ header {
     justify-content: center;
 }
 
+.nav img {
+    margin-top: 8rem;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .menu-toggle {
     color: #fff;
     font-size: 2.2rem;
@@ -426,7 +436,7 @@ header {
 
 /* Tasteful recipes */
 .tasteful-recipes {
-    background: url("/images/menu-grp5.jpg") center no-repeat;
+    background: url("/images/meal3.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -450,7 +460,7 @@ header {
 
 /* perfect blend */
 .perfect-blend {
-    background: url('/images/perfect-blend.jpg') center no-repeat;
+    background: url('/images/blend1.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -597,10 +607,11 @@ footer {
     .nav-list {
         position: initial;
         width: initial;
+        height: initial;
         background-color: transparent;
         padding: 0;
         justify-content: initial;
-        font-display: row;
+        flex-direction: row;
 
         transform: initial;
         -webkit-transform: initial;
@@ -615,7 +626,7 @@ footer {
     }
 
     .nav-item {
-        margin-left: 0 2.4rem;
+        margin: 0 2.4rem;
         border: none;
     }
 
